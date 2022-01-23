@@ -280,7 +280,7 @@ Which can be reformatted for easier scanning
 
 > **Notes**
 >
-> - The value in `return_data` is what we expect if our account name were "bob". But how did that get there? Run `near-vm --help` to see simulation options including control over contract state and execution context as well as network economics.
+> - The value in `return_data` is what we expect if our account name were "bob". But how did that get there? Run `yarn near-vm --help` to see simulation options including control over contract state and execution context as well as network economics.
 > - The amounts of `burnt_gas` and `used_gas` are the same, so why two different values? `used_gas` >= `burnt_gas` is always true. If ever a difference, it will be refunded back to the originating account. [See SO for more](https://stackoverflow.com/a/59146364).
 > - The entry in `logs` is exactly what we would expect to see.
 > - The contract `state` is empty.
